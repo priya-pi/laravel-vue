@@ -1,0 +1,205 @@
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+/* home */
+/* .home {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 60px;
+}
+.txt {
+  margin-top: 170px;
+  color: rgb(92, 110, 192);
+} */
+.navbar-brand {
+  color: rgb(75, 96, 192) !important;
+}
+.button-34 {
+  background: rgb(88, 108, 199);
+  border-radius: 999px;
+  box-shadow: rgb(95, 111, 186) 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-34:hover {
+  box-shadow: rgba(102, 88, 214, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+/* login */
+.box {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(113, 129, 199);
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 25px rgb(95, 111, 186);
+  border-radius: 10px;
+}
+
+.box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+.box p:nth-child(even) {
+  margin-top: 0;
+}
+
+.box a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 45px;
+  margin-top: 80px;
+}
+
+.box .input-box {
+  position: relative;
+}
+
+.box .input-box input {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  border: none;
+  border-bottom-style: solid;
+  outline: none;
+  letter-spacing: 1px;
+  background: transparent;
+}
+
+.box .input-box label {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box .input-box input:focus ~ label,
+.box .input-box input:valid ~ label {
+  top: -18px;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.box input[type="submit"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: rgb(55, 75, 167);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 115px;
+}
+.error-msg{
+    color:red;
+}
+/* dashboard */
+
+
+
+
+
+
+/* template */
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+} */
+
+body,
+html,
+.App,
+.vue-tempalte,
+.vertical-center {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.vertical-center .form-control:focus {
+  box-shadow: none;
+}
+
+.vertical-center h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: 500;
+}
